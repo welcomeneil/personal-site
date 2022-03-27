@@ -148,32 +148,33 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: rgb(106, 107, 106); */
-    background-color: #d3f1ec;
+    background-color: #fff;
     flex: 1;
 }
 
 #about-title h3{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 4vw;
     font-weight: 300;
     color: #03d4b2;
 }
 
 #about-images{
     display: flex;
-    justify-content: center;
 }
 
 #denji-drawing{
-    width: 15%;
+    width: 10vw;
+}
+
+#skate-pic{
+    width: 20vw;
 }
 
 #article{
     display: flex;
     flex-direction: column;
-    /* background-color: rgb(4, 71, 4); */
     background-color: #d3f1ec;
     text-align: center;
     flex: 1;
