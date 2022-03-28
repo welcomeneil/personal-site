@@ -6,7 +6,6 @@ body{
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;
-    background-color: #fdf6f6;
 }
 
 /* --------HEADER AND NAVBAR-------- */
@@ -134,7 +133,7 @@ h1{
     color: #202020;
 }
 
-/* --------Anime-------- */
+/* --------ABOUT ME-------- */
 
 #about-me{
     display: flex;
@@ -157,7 +156,7 @@ h1{
     text-transform: uppercase;
     font-size: 4vw;
     font-weight: 300;
-    color: #03d4b2;
+    color: #a5bdb9;
 }
 
 #about-images{
@@ -172,18 +171,24 @@ h1{
     width: 20vw;
 }
 
-#article{
+#about-bio{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #d3f1ec;
-    text-align: center;
     flex: 1;
 }
 
-#article h3{
+#about-bio h3{
+    text-align: center;
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: 300;
-    color: #03d4b2;
+}
+
+#about-bio p{
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 300;
 }
