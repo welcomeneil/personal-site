@@ -8,7 +8,7 @@ body{
     font-weight: 100;
 }
 
-/* --------HEADER AND NAVBAR-------- */
+/* -------- HEADER AND NAVBAR -------- */
 #navbar{
     width: 80%;
     margin: 0 auto;
@@ -99,9 +99,11 @@ nav a:hover::before{
     border-top: 0;
 }
 
-/* --------LANDING PAGE-------- */
+/* -------- LANDING PAGE -------- */
 
 #landing-page{
+    display: flex;
+    flex-direction: column;
     position: relative; 
     height: 100vh;
     width: 100%;
@@ -123,17 +125,27 @@ nav a:hover::before{
     background-attachment: fixed;
 }
 
-h1{
+#landing-page h1{
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 400%;
+    font-size: 8vh;
+    font-weight: 340;
+    text-align: center;
+    color: #202020;
+}
+
+#landing-page h2{
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 6vh;
     font-weight: 300;
     text-align: center;
     color: #202020;
 }
 
-/* --------ABOUT ME-------- */
+/* -------- ABOUT ME -------- */
 
 #about-me{
     display: flex;
@@ -174,21 +186,65 @@ h1{
 #about-bio{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
     background-color: #d3f1ec;
     flex: 1;
 }
 
 #about-bio h3{
+    padding: 3vh;
     text-align: center;
-    text-decoration: none;
     font-size: 2vw;
     font-weight: 300;
 }
 
 #about-bio p{
     text-align: center;
-    text-decoration: none;
     font-size: 2vw;
     font-weight: 300;
+}
+
+#about-bio ul{
+    /* justify-content: center; */
+    font-size: 2vw;
+    font-weight: 300;
+}
+
+/* -------- PROJECTS -------- */
+
+#projects{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+#project-title{
+    display: flex;
+    order: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    flex: 1;
+}
+
+#project-title i{
+    font-size: 3vw;
+}
+
+#project-title h3{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 4vw;
+    font-weight: 300;
+    color: #a5bdb9;
+}
+
+#project-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #d3f1ec;
+    flex: 1;
 }
