@@ -54,7 +54,6 @@ nav li{
     justify-content: space-between;
     margin-left: 70px;
     padding-top: 3vh;
-
     position: relative;
 }
 
@@ -77,11 +76,9 @@ nav a::before{
     display: block;
     height: 5px;
     background-color: #000000;
-    
     position: absolute;
     top: 0;
     width: 0%;
-
     transition: all ease-in-out 200ms;
 }
 
@@ -205,7 +202,7 @@ nav a:hover::before{
 }
 
 #about-bio ul{
-    /* justify-content: center; */
+    list-style-type: square;
     font-size: 2vw;
     font-weight: 300;
 }
@@ -245,6 +242,35 @@ nav a:hover::before{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #d3f1ec;
+    background-color: #d3d8f1;
     flex: 1;
 }
+
+#project-list ul{
+    display: flex;
+    flex-direction: column;
+    padding: 3vh;
+    font-size: 2vw;
+    font-weight: 300;
+}
+
+#project-list li{
+    margin: 3vh;
+    font-size: 2vw;
+    font-weight: 300;
+}
+
+#project-list a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#project-list a:visited{
+    text-decoration: none;
+    color: #000000;
+}
+
+#project-list a:hover{
+    color: #ffffff;
+}
+
